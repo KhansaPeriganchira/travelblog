@@ -1,0 +1,66 @@
+#rajasthanfood{
+
+    color:peru;
+}
+#rcuisine{
+
+    margin-left: 34px;
+    box-shadow: 3px 3px rgb(224, 159, 74);
+}
+#rcuisine:hover{
+transform: scale(1.2);
+
+
+}
+#exampleModalLabel{
+    color:peru;
+}
+#tradition{
+
+    color:peru;
+}
+#search{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+#explore
+{
+    margin-left: 30px;;
+}
+
+.card-img-top-wrapper{
+    position:relative;
+  }
+  .card-overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background: rgba(236, 159, 87, 0.767);
+    }
+  
+  .card:hover .card-overlay {
+      opacity: 0.5;
+    }
+
+    #dance{
+
+        box-shadow: 3px 3px orange;
+    }
+    .inner{
+        overflow: hidden;
+    }
+    .inner img{
+
+        transition:all 1.5s ease;
+    }
+    .inner:hover img{
+
+        transform:scale(1.5);
+    }
